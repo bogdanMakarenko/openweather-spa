@@ -14,12 +14,9 @@ const CardItem = ({weatherInfo}) => {
           <Card.Header>
             {weatherInfo.name}
           </Card.Header>
-          <Card.Meta>
-            t: {temp}
-          </Card.Meta>
           <p>{description}</p>
           <Card.Description>
-            <List items={[ `Humidity: ${humidity} %`, `Pressure: ${pressure} hpa`, ]} />
+            <List items={[ `t: ${temp}K`, `Humidity: ${humidity} %`, `Pressure: ${pressure} hpa`, ]} />
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
