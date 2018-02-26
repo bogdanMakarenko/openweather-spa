@@ -7,7 +7,7 @@ Clone the project:
 
 ```
 git clone https://github.com/bogdanMakarenko/openweather-spa.git
-cd openweather-spa
+cd openweather-spa/app
 ```
 
 Run the development server and open the page:
