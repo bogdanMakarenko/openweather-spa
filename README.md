@@ -10,7 +10,7 @@ git clone https://github.com/bogdanMakarenko/openweather-spa.git
 cd openweather-spa
 ```
 
-Finally, run the development server and open the page:
+Run the development server and open the page:
 
 ```
 npm start
