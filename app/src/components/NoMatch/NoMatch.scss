@@ -1,0 +1,28 @@
+.not-found-code {
+  margin: 7px 0;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.not-found-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.not-found-link {
+  margin: 10px 0;
+  color: #1e70bf;
+}
+
+.not-found-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.not-found-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
