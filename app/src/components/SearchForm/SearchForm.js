@@ -8,7 +8,7 @@ const SearchForm = () => (
   <Container>
     <Form>
       <Grid centered>
-        <Grid.Row style={{padding: 0}}>
+        <Grid.Row>
           <Grid.Column width={3}>
             <Header as='h2' textAlign='center' size='medium'>{formLabel}</Header>
           </Grid.Column>
